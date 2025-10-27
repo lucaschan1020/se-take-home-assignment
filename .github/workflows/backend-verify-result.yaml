@@ -44,8 +44,6 @@ jobs:
 
       - name: Execute run script
         run: ./scripts/run.sh
-        timeout-minutes: 10
-        continue-on-error: true
 
       - name: Verify result.txt exists and is not empty
         run: |
